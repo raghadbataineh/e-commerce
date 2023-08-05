@@ -1,0 +1,131 @@
+
+.d-block  {
+height: 500px;
+}
+
+  
+  .body_img img {
+/* 
+    display: block; */
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  
+  .intro_container {
+    font-family: sans-serif;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-color: lightpink;
+    border: 1px solid lightpink;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .intro_container img {
+    width: 250px;
+    border-radius: 30px;
+    
+  }
+  .introduction {
+    font-size: 25px;
+    font-weight: bold;
+  }
+/* Media query  */
+  @media screen and (max-width:768px){
+    .navbar {
+      width: 100%;
+    }
+    .intro_container{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      
+    }
+    .introduction {
+      font-size: 15px;
+    }
+    .body_img img{
+      width: 100%;
+    }
+    .intro_container img {
+      width: 150px;
+    }
+    img.card-img-top {
+      width: 200px;
+      height: 200px;
+    }
+  .card {
+      margin: 10px;
+    }
+    .row .col-3 {
+      /* For smaller screens, divide the row into 2 columns */
+      flex: 0 0 50%;
+      max-width: 40%;
+      padding-left: 0px;
+      margin: 0px;
+  
+    }
+  }
+
+.carousel-inner{
+    background-color: #0E2439;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+}
+
+input {
+    background-color: #7C668A;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+button{
+    
+    width: 200px;
+    color: white;
+    font-weight: bolder;
+    background-color: #EA1179;
+    
+}
+
+
+.footer {
+   margin-top: 50px;
+   padding: 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.footer-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+}
+
+
+.footer_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-social{
+    display: flex;
+    flex-direction: column;
+  }

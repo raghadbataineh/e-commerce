@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+body {
+   background-color:white;
+   font-family: "Sansita Swashed", cursive;
+
+}
+
+/* THe NAVBAR SECTION  */
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+}
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+   
+}
+.nav-link {
+  font-weight: bolder;
+}
+.form-inline .btn {
+    font-weight: bolder;
+    color: white;
+
+}
+
+/* THE FORM STYLE SECTION */
+.input {
+    width: 50%;
+    padding: 30px;
+    background-color: #f8e8e9;
+    color: black;
+    font-weight: bolder;
+    text-align: left;
+}
+.form_section {
+    margin: 100px auto 50px; 
+    background: linear-gradient(45deg, #f8e8e9,#EA1179);
+    width: 80%;
+    height: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Start MEDIA QUERY  */
+@media screen and (max-width:480px){
+    .input{
+        width: 100%;
+        height: 100%;
+}
+    .form_section{
+        width: 100%;
+    }
+
+   .footer {
+    font-size: 10px;
+ 
+    }
+    .footer_style {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .footer-logo img {
+        width: 100px;
+        height: 100px;
+    }
+    .footer-social{
+        width: 10px;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    .input{
+        width: 50%;
+        height: 100%;
+    }
+    .form_section{
+        width: 100%;
+    }
+}
+/* END MEDIA QUERY  */
+
+/* THE TABLE STYLE SECTION */
+.table{
+    width: 80%;
+    margin: auto;
+    /* background-color: #f8e8e9; */
+    background: linear-gradient(45deg, #EA1179, #f8e8e9);
+
+    color: black;
+    font-weight: bolder;
+}
+
+/* THE VIEW BUTTON SECTION */
+#view {
+    margin: 50px;
+    background-color: #EA1179;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/* THE ADD PRODUCT SECTION */
+#add {
+    background-color: #EA1179;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* THE FOOTER SECTION  */
+.footer {
+    background-color: rgb(30, 26, 26);
+   padding: 10px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.footer-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+}
+
+
+.footer_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  .footer-contact{
+    color: white;
+  }
+
+  .footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .footer-social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
